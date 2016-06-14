@@ -14,7 +14,8 @@
 
 input[type="submit"],
 input[type="reset"],
-input[type="button"] {
+input[type="button"],
+button[type="submit"] {
   @include am-btn;
   @include am-btn-raised;
 }
