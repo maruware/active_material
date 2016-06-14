@@ -7,8 +7,8 @@
 .panel,
 .has_many_container,
 body.index #main_content,
-body.edit #main_content > form,
-body.new #main_content > form,
+body.edit #main_content > form > fieldset,
+body.new #main_content > form > fieldset,
 body.create #main_content > form,
 body.update #main_content > form {
   @include am-paper;
